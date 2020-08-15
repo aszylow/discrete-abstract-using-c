@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Modular exponentiation using an array.
+// Finding the remainder of a very large number by modular exponentiation using an array.
 
 int exponentiation(int *arr, int num, int pow, int md) {
 

@@ -55,9 +55,8 @@ int exponentiation(int num, int pow, int md) {
     }
 
     int remainder = 1, sum = 0;
-    for(int i = 0; i < ind; i++) {
+    for(int i = 0; i < ind; i++)
         sum += binhash[i];
-    }
 
     if(sum > 0) {
         for(int i = 0; i < ind; i++) {

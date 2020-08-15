@@ -37,8 +37,7 @@ int getbyindex(struct Node *current, int index) {
 
 int exponentiation(int num, int pow, int md) {
 
-    int sqtemp = 2, remtemp = num;
-    int ind = 1;
+    int sqtemp = 2, remtemp = num, ind = 1;
     insertlast(num % md);
 
     while(sqtemp <= pow) {

@@ -4,8 +4,7 @@
 
 int exponentiation(int *arr, int num, int pow, int md) {
 
-    int sqtemp = 2, remtemp = num;
-    int ind = 1;
+    int sqtemp = 2, remtemp = num, ind = 1;
     arr[0] = num % md;
 
     while(sqtemp <= pow) {

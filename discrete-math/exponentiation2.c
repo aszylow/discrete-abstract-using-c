@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Finds the remainder of a very large number by modular exponentiation using a linked list.
+// Finds the remainder of a very large integer by modular exponentiation using a linked list.
 
 struct Node {
     int data;

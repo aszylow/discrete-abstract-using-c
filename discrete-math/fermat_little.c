@@ -1,4 +1,4 @@
-// Finds the remainder using Fermat's Little Theorem.
+// Finds the least residue using Fermat's Little Theorem.
 
 #include <stdio.h>
 #include <math.h>
@@ -9,9 +9,9 @@ int main() {
     int rem = (int) pow(base, power % (modulo - 1)) % modulo;
 
     if(base % modulo != 0)
-        printf("Remainder is %d (mod %d).\n", rem, modulo);
+        printf("Residue is %d in (mod %d).\n", rem, modulo);
     else
-        printf("Modulo divides base.\n", rem, modulo);
+        printf("Modulo divides base.\n");
 
     return 0;
 }

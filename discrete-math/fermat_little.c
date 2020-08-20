@@ -9,7 +9,7 @@ int main() {
     int rem = (int) pow(base, power % (modulo - 1)) % modulo;
 
     if(base % modulo != 0)
-        printf("Residue is %d in (mod %d).\n", rem, modulo);
+        printf("Least residue is %d in (mod %d).\n", rem, modulo);
     else
         printf("Modulo divides base.\n");
 
